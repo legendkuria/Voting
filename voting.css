@@ -1,0 +1,60 @@
+body {
+ margin: 0;
+ background-color:green;
+}
+.container{
+  margin-top: 80px;
+  height: 900px;
+  display: flex;
+  justify-content: center;
+}
+.frmholder{
+  background-color:green;
+  color: black;
+  width: 600px;
+  height: 650px;
+  border: 1px solid black;
+  border-radius: 15px;
+}
+.frmheader{
+  background-color: yellow;
+  text-align: center;
+  font-weight: bold;
+  font-size: 35px;
+  height: 140px;
+  margin-top: -25px;
+  border-radius: 15px 15px 0 0 ;
+}
+.frmheader p {
+  padding: 50px;
+}
+.frmholder form{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: #0B2647;
+}
+.frmholder button {
+  background-color: blue;
+  border: none;
+  border-radius: 60px;
+  width: 300px;
+  height: 50px;
+  margin-top: 40px;
+}
+.frmholder a{
+  color: white;
+}
+.frmholder #btn2{
+  background-color: blue;
+  border: none;
+  border-radius: 50px;
+  width: 400px;
+  height: 60px;
+  margin-top: 20px;
+}
+.voted {
+display: flex;
+flex-direction: column;
+ align-items: center;
+}
